@@ -1,0 +1,47 @@
+/*----------------about css start from here--------------*/
+.main-about{
+
+  color: #000;
+  margin-top: 5rem;
+  margin-bottom: 15rem;
+  height: 40rem;
+  
+  border-radius: 1.4rem;
+  height: 70rem;
+  padding: auto;
+}
+.main-about p{
+  font-size: 2rem;
+  font:bold;
+  font-weight: bold;
+  color:#000;
+  text-decoration-style: inherit;
+  margin-left: 2rem;
+ 
+}
+.main-about .list{
+  color: #fff !important;
+}
+.main-about button{
+width: 300px;
+height: 42px;
+
+padding: 1px;
+border-radius: 2rem;
+margin-top: 6rem;
+background-color: rgb(158, 244, 161);
+text-align: center;
+margin-left: 8rem;
+}
+.main-about button:hover{
+  background-color: white;
+  color:#000;
+  border-color: green;
+  border-width: 0.3rem;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  
+}
+img{
+  margin-top: 0.6rem;
+}
