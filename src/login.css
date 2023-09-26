@@ -1,0 +1,81 @@
+.login-page-container {
+  width: 48vw;
+
+  padding: 4rem;
+  box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
+  margin-top: -10rem;
+  background-color: #182334;
+  border-radius: 2.5rem;
+  margin-top: 3.4rem;
+  margin-bottom: 5rem;
+}
+h2 {
+  color: #fff;
+}
+.auth-form-container {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  background-color: #fff;
+}
+
+.auth-form-container,
+.login-form,
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+  color: #fff;
+}
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.btnn {
+  border: none;
+  background-color: rgb(141, 242, 145);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #7439db;
+}
+.forgot-pass {
+  text-align: right;
+  cursor: pointer;
+}
+.a {
+  text-align: center;
+  color: crimson;
+}
+
+.link-btn {
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+.gl {
+  color: var(--primary-color);
+  font-size: 3rem;
+  cursor: pointer;
+}
+.ln {
+  color: var(--primary-color);
+  font-size: 3rem;
+  cursor: pointer;
+}
+.fb {
+  color: var(--primary-color);
+  font-size: 3rem;
+  cursor: pointer;
+}
